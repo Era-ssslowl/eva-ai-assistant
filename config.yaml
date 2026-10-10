@@ -1,0 +1,12 @@
+# Настройки Евы. Секреты (ключи) сюда не пишем — они в .env
+
+brain:
+  provider: claude
+  model: claude-haiku-5-5
+  max_tokens: 2048
+  effort: low            # low, medium, high
+
+logging:
+  level: INFO            # DEBUG, INFO, WARNING, ERROR
+  dir: logs
+  file: eva.log
