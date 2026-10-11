@@ -7,6 +7,6 @@ brain:
   effort: low            # low, medium, high
 
 logging:
-  level: INFO            # DEBUG, INFO, WARNING, ERROR
+  level: WARNING            # DEBUG, INFO, WARNING, ERROR
   dir: logs
   file: eva.log
